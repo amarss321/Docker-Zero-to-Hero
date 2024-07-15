@@ -1,1 +1,42 @@
 
+What is Docker?
+--- Docker is an Open source containerization platform. it enables developers to package application into containers.
+
+
+How Container are Different from Virtual Machines?
+
+-- Containers are very Light weight in nature because they don't have complete OS but they have very minimal system dependencies that are required to run our application.
+
+What is Docker Life Cycle?
+
+-- I will initially start with writing a Dockerfile.
+   In docker file i will write a set of instructions 
+   That are required to run the application and once
+   I fell that the dockerfile is complete i will create 
+   an image out of it using Docker CLI. 
+   after that i will create Container using that image.
+
+
+What are the different Docker Components?
+
+-- 
+
+What is difference between docker COPY and docker ADD?
+
+-- Docker ADD can copy the files from a URL. 
+   Docker COPY which can only copy files from host system into container.
+what is the difference between CMD and Entrypoint in Docker?
+-- 
+
+
+What are the networking types in Docker and  what is the default?
+--
+
+Can you explain how to isolate networking between the containers ?
+
+--
+What is a multi stage build in Docker?
+-- Multi stage build allows us to build our docker container in multiple stage allowing us to copy artifacts from one stage to other.
+   The major advantage of this is to build light wegint containers.
+
+
